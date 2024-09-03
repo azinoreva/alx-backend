@@ -9,5 +9,4 @@ def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """
     returns  a tuple of the start and end index for the given page
     """
-    start_index = page * page_size
-    return start_index - page_size, start_index
+      return ((page - 1) * page_size, ((page - 1) * page_size) + page_size)
