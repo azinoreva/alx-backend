@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-"""Module for FIFO Cache"""
+"""
+Module for FIFO Cache
+"""
 
-from baseCaching import BaseCaching
+
+from base_caching import BaseCaching
+
 
 class FIFOCache(BaseCaching):
     """FIFO Cache class that inherits from BaseCaching"""

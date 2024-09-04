@@ -1,7 +1,10 @@
 #!/usr/bin/python3
-"""Module for LIFO Cache"""
+"""
+Module for LIFO Cache
+"""
 
-from baseCaching import BaseCaching
+
+from base_caching import BaseCaching
 
 
 class LIFOCache(BaseCaching):

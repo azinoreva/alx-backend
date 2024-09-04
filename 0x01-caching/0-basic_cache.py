@@ -4,14 +4,15 @@
 Module to do caching 
 """
 
-from baseCaching import BaseCaching 
+
+from base_caching import BaseCaching 
 
 
 class BaseCache(BaseCaching):
-    def __init__(self) -> None:
-        super().__init__()
-
-    def put(self, key, item):
+    '''A class `BasicCache` that inherits from `BaseCaching`
+       and is a caching system
+    '''
+    def put (self, key, item):
         """
         Args:
             key ([type]): [description]
