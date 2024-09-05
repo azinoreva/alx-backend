@@ -8,11 +8,11 @@ Module to do caching
 from base_caching import BaseCaching 
 
 
-class BaseCache(BaseCaching):
+class BasicCache(BaseCaching):
     '''A class `BasicCache` that inherits from `BaseCaching`
        and is a caching system
     '''
-    def put (self, key, item):
+    def put(self, key, item):
         """
         Args:
             key ([type]): [description]
@@ -21,7 +21,7 @@ class BaseCache(BaseCaching):
         Returns:
             [type]: [description]
         """
-        if key  is not None and item is not None:
+        if key is not None and item is not None:
             self.cache_data[key] = item
             
     
